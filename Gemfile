@@ -43,3 +43,19 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'spree', '2.1.3'
+gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-1-stable'
+gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-1-stable'
+
+gem 'spree_static_content', :github => 'spree/spree_static_content', :branch => '2-1-stable'
+gem 'spree_active_shipping', :git => "git://github.com/spree/spree_active_shipping", :branch => "2-1-stable"
+gem "spree_comments", github: 'spree/spree_comments', :branch => '2-1-stable'
+gem 'spree_related_products', :git => 'git://github.com/spree/spree_related_products.git', :branch => '2-1-stable'
+gem 'spree_paypal_express', :github => "radar/better_spree_paypal_express", :branch => "2-1-stable"
+gem "spree_social", :git => "git://github.com/spree/spree_social.git", :branch => '2-1-stable'
+gem 'spree_reviews', github: 'spree/spree_reviews', :branch => '2-1-stable'
+gem 'spree_digital', :git => 'git://github.com/halo/spree_digital.git', :branch => '2-1-stable'
+gem 'spree_store_credits', :git => 'https://github.com/spree/spree_store_credits.git', :branch => '2-1-stable'
+
+gem 'spree_fancy', :git => 'https://github.com/wag0325/spree_fancy.git', :branch => '2-1-stable'
