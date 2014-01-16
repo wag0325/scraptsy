@@ -51,9 +51,6 @@ group :production do
 	gem 'pg'
 end
 
-group :development, :test do
-  gem "sqlite3-ruby", "~> 1.3.0", :require => "sqlite3"
-end
 
 gem 'spree', '2.1.3'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-1-stable'
