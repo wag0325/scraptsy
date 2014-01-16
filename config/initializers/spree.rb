@@ -10,9 +10,9 @@ Spree.config do |config|
   # Uncomment to override the default site name.
   # config.site_name = "Spree Demo Site"
   config.use_s3 = true
-  config.s3_bucket = '<bucket>'
-  config.s3_access_key = "<key>"
-  config.s3_secret = "<secret>"
+  config.s3_bucket = 'scraptsy'
+  config.s3_access_key = "AKIAJJUAXFNXJP25TH5A"
+  config.s3_secret = "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"
 end
 
 Spree.user_class = "Spree::User"
